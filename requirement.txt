@@ -1,0 +1,55 @@
+# ============================================
+# 🎬 MATCH CLIP ANALYZER v12.0 - DEPENDENCIAS
+# ============================================
+
+# 🖼️ INTERFAZ GRÁFICA
+PyQt6>=6.5.0
+PyQt6-Qt6>=6.5.0
+PyQt6-sip>=13.5.0
+
+# 🎬 MULTIMEDIA
+PyQt6-Qt6[multimedia]>=6.5.0
+
+# 📄 GENERACIÓN DE PDF
+reportlab>=4.0.0
+
+# 🐍 UTILIDADES DEL SISTEMA
+pillow>=10.0.0           # Para manipulación de imágenes
+numpy>=1.24.0            # Para cálculos (opcional pero útil)
+
+# 📦 PARA DESARROLLADORES (OPCIONAL)
+pyinstaller>=6.0.0       # Para crear ejecutables
+black>=23.0.0            # Formateador de código
+pytest>=7.0.0            # Para testing
+
+# 🔧 DEPENDENCIAS DEL SISTEMA (NOTAS)
+# FFmpeg debe estar instalado en el sistema o incluido manualmente
+# En Windows: Descargar ffmpeg.exe y colocarlo en la misma carpeta
+# En macOS: brew install ffmpeg
+# En Linux: sudo apt install ffmpeg
+
+# ============================================
+# 🚀 INSTALACIÓN RÁPIDA
+# ============================================
+
+# Instalar todo:
+# pip install -r requirements.txt
+
+# Instalar solo lo esencial (usuario final):
+# pip install PyQt6 reportlab pillow
+
+# Crear entorno virtual:
+# python -m venv venv
+# source venv/bin/activate  # Linux/Mac
+# venv\Scripts\activate     # Windows
+# pip install -r requirements.txt
+
+# ============================================
+# 📦 INFORMACIÓN DE VERSIONES TESTEADAS
+# ============================================
+# Python 3.8+ recomendado
+# Testeado con:
+# - Python 3.10.11
+# - PyQt6 6.5.0
+# - ReportLab 4.0.4
+# - Windows 10/11, macOS 12+, Ubuntu 20.04+
